@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./assets/css/cadastro.css" />
+  </head>
+  <body class="flex justify-center bg-[#6651c3] h-[100vh]">
+    <form class="flex flex-col items-center justify-center self-center border-none rounded-[6px] bg-[#103F7C] text-[aliceblue] max-w-[400px] justify-self-center "
+    action="script" name="matricula" id="matricula" method="get">
+      <img src="./assets/imagens/logo.png" alt="logo" />
+      <h2 class="mb-[10px] text-[aliceblue]">Faça seu Cadastro</h2>
+      <fieldset>
+        <div class="campo">
+          <label class="label" for="name">Nome Completo:</label>
+          <input class="input"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Digite seu nome"
+            required
+          />
+        </div>
+
+        <div class="campo">
+          <label class="label" for="email">Email</label>
+          <input class="input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Digite seu E-mail"
+            required
+          />
+        </div>
+
+        <div class="campo">
+          <label class="label" for="phone">Telefone ou Celular</label>
+          <input class="input"
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="Digite seu Tel ou Cel"
+            required
+          />
+        </div>
+
+        <div class="campo">
+          <label class="label" for="password">Senha:</label>
+          <input class="input"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Digite sua Senha"
+            required
+          />
+        </div>
+
+        <div class="campo">
+          <label class="label" for="password">Confirme sua Senha:</label>
+          <input class="input"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Confirme sua Senha"
+            required
+          />
+        </div>
+      </fieldset>
+        <div class="conteiner-button">
+            <button class="px-[5px] py-[8px] mt-[20px] text-[16px] text-[#000000] bg-[#EADDFF] rounded-md" type="submit">Cadastrar</button>
+            <button class="px-[5px] py-[8px] mt-[20px] text-[16px] text-[#000000] bg-[#EADDFF] rounded-md" type="submit">Voltar</button>
+        </div>
+    </form>
+  </body>
+  <script src="./assets/js/cadastro.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</html>
