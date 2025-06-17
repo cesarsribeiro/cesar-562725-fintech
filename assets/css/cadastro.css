@@ -1,0 +1,28 @@
+* {
+  font-family: "Archivo", sans-serif;
+}
+
+.campo {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 5px;
+}
+
+.input {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: aliceblue;
+  color: rgb(0, 0, 0);
+}
+
+img {
+  border: 1px solid #000000;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
